@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Daiho</title> 
+
+      <link rel="stylesheet" href="../css/design.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+
+      <header>
+        <div class="Navigation">
+          <h2>DAIHO AUTOPARTS SUPPLY</h2>
+          <a href="../index.html"><img src="../picture/logo.jpg"></a>
+        </div>
+          <select id="Categories">
+            <option value="" selected>-- Categories --</option>
+            <option value="home.html">ENGINE PARTS</option>
+            <option value="home.html">TRANSMISSIOM PARTS</option>
+            <option value="home.html">SUSPENSION PARTS</option>
+            <option value="home.html">STEERING PARTS</option>
+            <option value="home.html">ELECTRICAL PARTS</option>
+            <option value="home.html">COOLING PARTS</option>
+            <option value="home.html">EXHAUST PARTS</option>
+            <option value="home.html">FUEL PARTS</option>
+            <option value="home.html">MIRRORS</option>
+            <option value="home.html">RIM</option>
+            <option value="home.html">WHEELS</option>
+          </select>
+          <select id="Item">
+            <option value="" selected>-- Item --</option>
+            <option value="page.html">AIRCON PULLEY</option>
+            <option value="page.html">BELT TENSIONER PULLEY</option>
+            <option value="page.html">BY PASS HOSE</option>
+            <option value="page.html">CAMSHAFT ASSY</option>
+            <option value="page.html">CAMSHAFT BUSHING</option>
+            <option value="page.html">CARBURATOR ASSY</option>
+            <option value="page.html">CARBURATOR DIAPHRAGM</option>
+            <option value="page.html">CARBURETOR REPAIR KIT</option>
+            <option value="page.html">CONROD ARM</option>
+            <option value="page.html">CONROD BEARING</option>
+            <option value="page.html">IDLER PULLEY</option>
+            <option value="page.html">IGNITION COIL</option>
+            <option value="page.html">IGNITION SWITCH</option>
+            <option value="page.html">LINERS</option>
+            <option value="page.html">OIL FILTER</option>
+            <option value="page.html">OIL GAUGE</option>
+            <option value="page.html">OIL PAN GASKET</option>
+            <option value="page.html">OIL PRESURE SWITCH</option>
+            <option value="page.html">PISTON PIN BUSHING</option>
+            <option value="page.html">PISTON RING</option>
+            <option value="page.html">TRUST WASHER</option>
+            <option value="page.html">VALVE COVER GASKET</option>
+            <option value="page.html">VALVE GUIDE</option>
+            <option value="page.html">VALVE SEAL</option>
+            <option value="page.html">VALVE TAPPET</option>
+            <option value="page.html">VENTILATION HOSE</option>
+            <option value="page.html">WATER PUMP</option>
+            <option value="page.html">WINSHIELD WASHER PUMP</option>
+          </select>
+      </header>
+      <main>
+        <h2 class="name_Item">Belt Tensioner Pulley</h2>
+        <div class="main-container">
+          <div>
+            <a href="home.html"><img src="../engine pic/W301-12-700.png"></a>
+            <h5>WE01-12-700<br>Ford Everest</h5>
+          </div>
+          <div>
+            <a href="home.html"><img src="../engine pic/16630-97402.png"></a>
+            <h5>16630-97402 <br>Toyota Avanza Veloz and Daihatsu Xenia Idler Pulley</h5>
+          </div>
+        </div>
+      </main>
+
+    </body>
+
+    <script>
+        document.getElementById('Categories').addEventListener('change', function() {
+          if (this.value) {
+            window.location.href = this.value;
+          }
+        });
+
+        document.getElementById('Item').addEventListener('change', function() {
+          if (this.value) {
+            window.location.href = this.value;
+          }
+        });
+    </script>
+</html>
