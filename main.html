@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Daiho</title> 
+
+      <link rel="stylesheet" href="designing/main.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+
+      <header>
+        <div class="Navigation">
+          <h2>DAIHO AUTOPARTS SUPPLY</h2>
+          <select id="Categories">
+            <option value="" selected>-- Categories --</option>
+            <option value="home.html">About Us</option>
+            <option value="home.html">Contact</option>
+          </select>
+
+          <select id="Item">
+            <option value="" selected>-- Item --</option>
+            <option value="page.html">About Us</option>
+            <option value="page.html">Contact</option>
+          </select>
+        </div>
+      </header>
+      <main>
+        <div class="main-container">
+          <div>
+            <a href="home.html"><img src="designing/auto_pic.jpg"  alt="Girl in a jacket" width="210px" height="210px"></a>
+            <h4>TOYOTA VIOS 2019</h4>
+          </div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>
+          <div>10</div>
+          <div>11</div>
+          <div>12</div>
+          <div>13</div>
+          <div>14</div>
+          <div>15</div>
+        </div>
+      </main>
+
+    </body>
+
+    <script>
+        document.getElementById('Categories').addEventListener('change', function() {
+          if (this.value) {
+            window.location.href = this.value;
+          }
+        });
+
+        document.getElementById('Item').addEventListener('change', function() {
+          if (this.value) {
+            window.location.href = this.value;
+          }
+        });
+    </script>
+</html>
